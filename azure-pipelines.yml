@@ -23,8 +23,8 @@ steps:
 - task: Gradle@2
   displayName: 'gradlew assembleDebug'
   inputs:
-    gradleWrapperFile: 'camoc/flutter_todo_app -Android/gradlew'
-    workingDirectory: 'camoc/flutter_todo_app -Android'
+    gradleWrapperFile: 'gradlew'
+    workingDirectory: ''
     tasks: assembleDebug
     publishJUnitResults: false
     checkStyleRunAnalysis: true
